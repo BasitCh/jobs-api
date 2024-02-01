@@ -23,4 +23,5 @@ const jobSchema = mongoose.Schema({
      }
 }, {timpestamps: true})
 
+
 module.exports = mongoose.model('Job', jobSchema)
